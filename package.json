@@ -8,8 +8,8 @@
     "vue",
     "echarts"
   ],
-  "main": "lib/index.cjs.min.js",
-  "module": "lib/index.esm.min.js",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
   "files": [
     "lib"
   ],
