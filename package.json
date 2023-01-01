@@ -4,6 +4,14 @@
   "description": "Chart components written using Vue2",
   "author": "Wind",
   "license": "MIT",
+  "homepage": "https://github.com/moaningwind/naive-echarts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moaningwind/naive-echarts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moaningwind/naive-echarts/issues"
+  },
   "keywords": [
     "vue",
     "echarts"
@@ -18,7 +26,6 @@
     "docs:build": "pnpm --filter docs build",
     "docs:dev": "pnpm --filter docs dev",
     "lint": "eslint .",
-    "lintfix": "eslint . --fix",
     "prepublishOnly": "pnpm lint && pnpm build"
   },
   "browserslist": [
